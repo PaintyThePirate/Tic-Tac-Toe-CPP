@@ -728,7 +728,7 @@ void ai_turn(int difficulty, int turn)
 					if (move_invalid(4) == false && retry == false)
 					{
 						do_move(2, 4);
-						retry == false;
+						retry = false;
 					}
 					else if (retry == true)
 					{
